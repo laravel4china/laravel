@@ -1,6 +1,27 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v6.18.0...6.x)
+## [Unreleased](https://github.com/laravel/laravel/compare/v6.18.35...6.x)
+
+
+## [v6.18.35 (2020-08-11)](https://github.com/laravel/laravel/compare/v6.18.8...v6.18.35)
+
+### Changed
+- Set framework version to `^6.18.35` ([#5369](https://github.com/laravel/laravel/pull/5369))
+- Bump lodash from 4.17.15 to 4.17.19 ([f465c51](https://github.com/laravel/laravel/commit/f465c511c009235fc7bfa06bfcb41294e60e9b42))
+- Disable webpack-dev-server host check ([#5288](https://github.com/laravel/laravel/pull/5288))
+
+
+## [v6.18.8 (2020-04-16)](https://github.com/laravel/laravel/compare/v6.18.3...v6.18.8)
+
+### Fixed
+- Add both endpoint and url env variables ([#5276](https://github.com/laravel/laravel/pull/5276))
+
+
+## [v6.18.3 (2020-03-24)](https://github.com/laravel/laravel/compare/v6.18.0...v6.18.3)
+
+### Fixed
+- Ensure that `app.debug` is a bool ([5ddbfb8](https://github.com/laravel/laravel/commit/5ddbfb845439fcd5a46c23530b8774421a931760))
+- Fix S3 endpoint url reference ([#5267](https://github.com/laravel/laravel/pull/5267))
 
 
 ## [v6.18.0 (2020-02-24)](https://github.com/laravel/laravel/compare/v6.12.0...v6.18.0)
